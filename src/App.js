@@ -35,13 +35,13 @@ function App() {
     <>
       <header className="background" style={{backgroundColor: bgColors[0] }}>Header</header>
       <div className="container">
-        <nav className="background" style={{backgroundColor: bgColors[2] }}>Navigation</nav>
-          <main className="background" style={{backgroundColor: bgColors[3] }}>
+        <nav className="background" style={{backgroundColor: bgColors[1] }}>Navigation</nav>
+          <main className="background" style={{backgroundColor: bgColors[2] }}>
           <button className="main-btn" style={{backgroundColor: btnBgColor }} onClick={clickHandler}>Click me</button>
           </main>
-        <aside className="background" style={{backgroundColor: bgColors[4] }}>Sider</aside>
+        <aside className="background" style={{backgroundColor: bgColors[3] }}>Sider</aside>
       </div>
-      <footer className="background" style={{backgroundColor: bgColors[5] }}>Footer</footer>
+      <footer className="background" style={{backgroundColor: bgColors[4] }}>Footer</footer>
     </>
   );
 }
