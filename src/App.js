@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <header className="background" style={{backgroundColor: bgColors[0] }}>Header</header>
-      <div className="container" style={{backgroundColor: bgColors[1] }}>
+      <div className="container">
         <nav className="background" style={{backgroundColor: bgColors[2] }}>Navigation</nav>
           <main className="background" style={{backgroundColor: bgColors[3] }}>
           <button className="main-btn" style={{backgroundColor: btnBgColor }} onClick={clickHandler}>Click me</button>
