@@ -39,7 +39,7 @@ function App() {
       <div className="container">
         <nav className="background" style={{backgroundImage: `url(${bgImages[1]})` }}>Navigation</nav>
           <main className="background" style={{backgroundImage: `url(${bgImages[2]})` }}>
-            <button className="main-btn" style={{backgroundImage: btnBgColor }} onClick={clickHandler}>Click me</button>
+            <button className="main-btn" style={{backgroundColor: btnBgColor }} onClick={clickHandler}>Click me</button>
           </main>
         <aside className="background" style={{backgroundImage: `url(${bgImages[3]})` }}>Sider</aside>
       </div>
